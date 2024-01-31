@@ -21,7 +21,7 @@ def hello_world():
 
 # www.google.com/hp/
 @app.route("/hp/")
-def meow_cat():
+def marauder():
     return "<p>I solemnly swear I am up to no good.</p>"
 
 @app.route("/main/")
