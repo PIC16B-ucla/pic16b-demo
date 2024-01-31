@@ -19,10 +19,10 @@ app = Flask(__name__)
 def hello_world():
     return "<h1>Hello, World!</h1>"
 
-# www.google.com/cat/
-@app.route("/cat/")
+# www.google.com/hp/
+@app.route("/hp/")
 def meow_cat():
-    return "<p>Meow, Cat!</p>"
+    return "<p>I solemnly swear I am up to no good.</p>"
 
 @app.route("/main/")
 def render_main():
